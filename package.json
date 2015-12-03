@@ -1,0 +1,23 @@
+{
+  "name": "mithril-examples",
+  "version": "1.0.0",
+  "description": "Example/Test Mithril",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlphaGedLor/MithrilExample_LorAlphaGed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlphaGedLor/MithrilExample_LorAlphaGed/issues"
+  },
+  "homepage": "https://github.com/AlphaGedLor/MithrilExample_LorAlphaGed#readme",
+  "dependencies": {
+    "leaflet": "^0.7.7",
+    "mithril": "^0.2.0"
+  }
+}
