@@ -3,22 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, intial-scale=1.0">
-  <link rel="stylesheet" href="node_modules\leaflet\dist\leaflet.css" charset="utf-8">
-  <link rel="stylesheet" href="MithrilExample_LorAlphaGed\main.css" charset="utf-8">
-  <title>Mirthil Examples</title>
+  <!-- <link rel="stylesheet" href="node_modules\leaflet\dist\leaflet.css" charset="utf-8"> -->
+  <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css" charset="utf-8">
+  <link rel="stylesheet" href="main.css" charset="utf-8">
+  <title>Jquery Examples</title>
 </head>
 
 <body>
-  <div id="map"></div>
-  <div>
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
+  <div class="jumbotron">
+    <h1>JS<br/>Tutorials</h1>
+  </div>
+  <div id="peopleModule">
+    <h1>People</h1>
+    <input placeholder="name" type="text">
+    <button id="addPerson">Add Person</button>
+    <ul id="people">
+      <script id="people-template" type="text/template">
+        {{#people}}
+          <li>
+            <span>{{.}}</span>
+            <i class="del">X</i>
+          </li>
+        {{/people}}
+      </script>
     </ul>
   </div>
-  <script src="mithril\mithril.min.js" charset="utf-8"></script>
-  <script src="node_modules\leaflet\dist\leaflet.js" charset="utf-8"></script>
+
+  <!-- <script src="mithril\mithril.min.js" charset="utf-8"></script>
+  <script src="node_modules\leaflet\dist\leaflet.js" charset="utf-8"></script> -->
+  <script src="node_modules\mustache\mustache.min.js" charset="utf-8"></script>
+  <script src="node_modules\jquery\dist\jquery.min.js" charset="utf-8"></script>
+  <script src="node_modules\bootstrap\dist\js\bootstrap.min.js" charset="utf-8"></script>
   <script src="main.js" charset="utf-8"></script>
 </body>
 
